@@ -51,7 +51,11 @@ body {
     padding-top: 1em;
     text-align: center;
 }
+#myTable td, #myTable th{
 
+    padding: .75rem;
+    vertical-align: top;
+}
 
 /* Footer */
 
