@@ -35,7 +35,7 @@ body {
     grid-area: content;
 }
 
-.countdown {
+#countdown {
     left: 0;
     bottom: 0;
     right: 0;
@@ -45,6 +45,7 @@ body {
 
 .countdown__message {
     font-weight: 100;
+    font-size: 17px;
     padding-top: 1em;
     text-align: center;
 }
