@@ -1,7 +1,7 @@
 function searchTable() {
     var input, filter, table, tr, td, i, txtValue;
     for (filter = (input = document.getElementById("myInput")).value.toUpperCase(), tr = (table = document.getElementById("myTable")).getElementsByTagName("tr"), i = 0; i < tr.length; i++)
-    (td = tr[i].getElementsByTagName("td")[3]) && ((txtValue = td.textContent || td.innerText).toUpperCase().indexOf(filter) > -1 ? tr[i].style.display = "" : tr[i].style.display = "none")
+    (td = tr[i].getElementsByTagName("td")[1]) && ((txtValue = td.textContent || td.innerText).toUpperCase().indexOf(filter) > -1 ? tr[i].style.display = "" : tr[i].style.display = "none")
 }
 
 
