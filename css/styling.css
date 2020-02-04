@@ -36,7 +36,12 @@ body {
 .content {
     grid-area: content;
 }
-
+.cvflag{
+    width: 110px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 #countdown {
     left: 0;
     bottom: 0;
