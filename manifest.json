@@ -1,0 +1,15 @@
+{
+    "short_name": "Autárquicas",
+    "name": "Autárquicas Website",
+    "icons": [
+      {
+        "src": "logo.png",
+        "type": "image/png",
+        "sizes": "160x160"
+      }
+    ],
+    "start_url": "index.html",
+    "display": "standalone",
+    "background_color":"#fff;",
+    "theme_color": "#d8d6c9"
+  }
