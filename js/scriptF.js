@@ -1,11 +1,44 @@
-function searchTable() {
-    var input, filter, table, tr, td, i, txtValue;
-    for (filter = (input = document.getElementById("myInput")).value.toUpperCase(), tr = (table = document.getElementById("myTable")).getElementsByTagName("tr"), i = 0; i < tr.length; i++)
-    (td = tr[i].getElementsByTagName("td")[3]) && ((txtValue = td.textContent || td.innerText).toUpperCase().indexOf(filter) > -1 ? tr[i].style.display = "" : tr[i].style.display = "none")
+function searchTable(n) {
+  var input, filter, table, tr, td, i, txtValue;
+    if(n!=3){
+        id = document.getElementById("myInput1");
+    }else{
+        id=document.getElementById("myInput");
+    }
+   
+
+  for (filter = (input = id).value.toUpperCase(),
+      tr = (table = document.getElementById("myTable")).getElementsByTagName("tr"),
+      i = 0;
+    i < tr.length;
+
+    i++
+  )
+
+    (td = tr[i].getElementsByTagName("td")[n]) &&
+      ((txtValue = td.textContent || td.innerText)
+        .toUpperCase()
+        .indexOf(filter) > -1
+        ? (tr[i].style.display = "")
+        : (tr[i].style.display = "none"));
 }
 
 
+const getCellValue = (tr, idx) => tr.children[idx].innerText || tr.children[idx].textContent;
 
+const comparer = (idx, asc) => (a, b) => ((v1, v2) => 
+    v1 !== '' && v2 !== '' && !isNaN(v1) && !isNaN(v2) ? v1 - v2 : v1.toString().localeCompare(v2)
+    )(getCellValue(asc ? a : b, idx), getCellValue(asc ? b : a, idx));
+
+// do the work...
+document.querySelectorAll('th').forEach(th => th.addEventListener('click', (() => {
+    const table = th.closest('table');
+    
+    const tbody = table.querySelector('tbody');
+    Array.from(tbody.querySelectorAll('tr'))
+      .sort(comparer(Array.from(th.parentNode.children).indexOf(th), this.asc = !this.asc))
+      .forEach(tr => tbody.appendChild(tr) );
+})));
 
 var countDownDate = new Date("Oct 10, 2020 15:37:25").getTime(),
     x = setInterval((function () {
@@ -62,8 +95,18 @@ function export_table_to_csv(html, filename) {
     // Download CSV
     download_csv(csv.join("\n"), filename);
 }
+function downloadCsv(){
 
-document.querySelector("button").addEventListener("click", function () {
     var html = document.querySelector("table").outerHTML;
-	export_table_to_csv(html, "table.csv");
-});
+	export_table_to_csv(html, "tabela.csv");
+}
+
+
+
+//Reset Display
+
+function resetDisplay(){
+    Array.prototype.forEach.call(document.getElementById('ttbody').getElementsByTagName('tr'), function (element) {
+        element.style = 'display: ';
+    });
+}
