@@ -40,7 +40,7 @@ document.querySelectorAll('th').forEach(th => th.addEventListener('click', (() =
       .forEach(tr => tbody.appendChild(tr) );
 })));
 
-var countDownDate = new Date("Oct 10, 2020 15:37:25").getTime(),
+var countDownDate = new Date("Nov 10, 2020 15:37:25").getTime(),
     x = setInterval((function () {
         var now = (new Date).getTime(),
             distance = countDownDate - now,

@@ -13,7 +13,7 @@ body {
                         'content'
                         'links'
                         'footer';
-    row-gap: 5px;
+    row-gap: 7px;
     height: 100vh;
     padding: 1rem;
     font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
