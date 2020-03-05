@@ -110,3 +110,8 @@ function resetDisplay(){
         element.style = 'display: ';
     });
 }
+
+//Contagem de candidaturas
+
+    document.getElementById("candidaturas").innerHTML = "Total Candidaturas: "+ document.querySelector("tbody").rows.length; 
+ 
