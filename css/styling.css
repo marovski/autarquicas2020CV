@@ -6,6 +6,7 @@ html {
 }
 
 body {
+    /*  CSS Grid Layout*/
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto;
@@ -14,6 +15,8 @@ body {
                         'links'
                         'footer';
     row-gap: 7px;
+
+
     height: 100vh;
     padding: 1rem;
     font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif;
@@ -57,6 +60,13 @@ body {
     padding-top: 1em;
     text-align: center;
 }
+#myTable{
+    border-radius: 4px;
+    margin: 5px 0;
+    padding: 10px 15px;
+    box-shadow: 0 0 5px 0 #B3B3B3;
+
+}
 #myTable td, #myTable th{
 
     padding: .75rem;
@@ -65,6 +75,7 @@ body {
 @media screen and (max-width: 600px) {
     #myTable {
       border: 0;
+      border-radius: 4px;
     }
   
     #myTable caption {
