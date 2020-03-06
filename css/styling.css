@@ -72,6 +72,11 @@ body {
     padding: .75rem;
     vertical-align: top;
 }
+#candidaturas{
+margin: 5px 0;
+    padding: 10px 15px;
+    box-shadow: 0 0 5px 0 #B3B3B3;
+}
 @media screen and (max-width: 600px) {
     #myTable {
       border: 0;
