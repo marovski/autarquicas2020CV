@@ -65,7 +65,7 @@ body {
     margin: 5px 0;
     padding: 10px 15px;
     box-shadow: 0 0 5px 0 #B3B3B3;
-
+    overflow-x:auto;    
 }
 #myTable td, #myTable th{
 
@@ -77,6 +77,8 @@ margin: 5px 0;
     padding: 10px 15px;
     box-shadow: 0 0 5px 0 #B3B3B3;
 }
+
+/*
 @media screen and (max-width: 600px) {
     #myTable {
       border: 0;
@@ -113,10 +115,7 @@ margin: 5px 0;
     }
     
     #myTable td::before {
-      /*
-      * aria-label has no advantage, it won't be read inside a table
-      content: attr(aria-label);
-      */
+    
       content: attr(data-label);
       float: left;
       font-weight: bold;
@@ -127,7 +126,7 @@ margin: 5px 0;
       border-bottom: 0;
     }
   }
-
+**/
   /* links */
 .links{
   grid-area: links;
