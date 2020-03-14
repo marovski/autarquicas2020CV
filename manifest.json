@@ -3,7 +3,7 @@
     "name": "Autárquicas | 2020",
     "icons": [
       {
-        "src": "logo.png",
+        "src": "./img/logo.png",
         "type": "image/png",
         "sizes": "160x160"
       }
