@@ -23,7 +23,7 @@ body {
     font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif !important;
     font-style: normal;
     font-weight: 300;
-    font-size: 1.4rem !important;
+    font-size: 1.4rem;
     line-height: 2rem;
     letter-spacing: 0.01rem;
     color: #212121;
@@ -56,7 +56,7 @@ body {
 }
 
 .countdown__message {
-    font-weight: 100;
+    /* font-weight: 100; */
     font-size: 17px;
     padding-top: 1em;
     text-align: center;
@@ -66,7 +66,7 @@ body {
     margin: 5px 0;
     padding: 10px 15px;
     box-shadow: 0 0 5px 0 #B3B3B3;
-    
+    overflow-x:auto;
 }
 #myTable td, #myTable th{
 
@@ -79,8 +79,8 @@ margin: 5px 0;
     box-shadow: 0 0 5px 0 #B3B3B3;
 }
 
-/*
-@media screen and (max-width: 600px) {
+/* media query responsive */
+@media screen and (max-width: 700px) {
     #myTable {
       border: 0;
       border-radius: 4px;
@@ -127,7 +127,7 @@ margin: 5px 0;
       border-bottom: 0;
     }
   }
-**/
+
   /* links */
 .links{
   grid-area: links;
