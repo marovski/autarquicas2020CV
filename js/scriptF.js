@@ -40,7 +40,7 @@ document.querySelectorAll('th').forEach(th => th.addEventListener('click', (() =
       .forEach(tr => tbody.appendChild(tr) );
 })));
 
-var countDownDate = new Date("Nov 10, 2020 15:37:25").getTime(),
+var countDownDate = new Date("Oct 25, 2020 00:01:00").getTime(),
     x = setInterval((function () {
         var now = (new Date).getTime(),
             distance = countDownDate - now,
@@ -115,3 +115,13 @@ function resetDisplay(){
 
     document.getElementById("candidaturas").innerHTML = "Total Candidaturas: "+ document.querySelector("tbody").rows.length; 
  
+//ServiceWorker
+
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function() {
+      navigator.serviceWorker
+        .register("/serviceWorker.js")
+        .then(res => console.log("service worker registered"))
+        .catch(err => console.log("service worker not registered", err))
+    })
+  }
