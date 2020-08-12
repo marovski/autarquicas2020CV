@@ -41,11 +41,22 @@ body {
 .content {
     grid-area: content;
 }
+/* Logos CSS  */
 .cvflag{
-    width: 110px;
+  
+    width: 304px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 50%!important;
+    border-color: darkblue;
+}
+.gspLogo{
+  width: 95px;
+  
+  margin-left: auto;
+  margin-right: auto;
+ 
 }
 #countdown {
     left: 0;

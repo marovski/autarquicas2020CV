@@ -98,7 +98,7 @@ function export_table_to_csv(html, filename) {
 function downloadCsv(){
 
     var html = document.querySelector("table").outerHTML;
-	export_table_to_csv(html, "tabela.csv");
+	export_table_to_csv(html, "candidaturas.csv");
 }
 
 
