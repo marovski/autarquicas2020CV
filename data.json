@@ -1,0 +1,331 @@
+﻿{
+    "tabela": [
+        {
+            "Partido": "UCID",
+            "Cabeça de Lista CM": "Francisco Silva",
+            "Município": "Praia",
+            "Ilha": "Santiago",
+            "Região": "Sotavento",
+            "Website": "Link"
+        },
+        {
+            "Partido": "PAICV",
+            "Cabeça de Lista CM": "Odailson Bandeira",
+            "Município": "Ribeira Grande",
+            "Ilha": "Santo Antão",
+            "Região": "Barlavento"
+        },
+        {
+            "Partido": "PAICV",
+            "Cabeça de Lista CM": "Nuías Silva",
+            "Cabeça de Lista Assembleia": "Luís Nunes",
+            "Município": "São Filipe",
+            "Ilha": "Fogo",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "MUDAR",
+            "Cabeça de Lista CM": "Paulino Dias",
+            "Cabeça de Lista Assembleia": "Licinia Leite",
+            "Município": "Ribeira Grande",
+            "Ilha": "Santo Antão",
+            "Região": "Barlavento",
+            "Website": "https://alternativaribeiragrande.cv/",
+            "Contacto": "geral@alternativaribeiragrande.cv"
+        },
+        {
+            "Partido": "MPD",
+            "Cabeça de Lista CM": "Jorge Nogueira",
+            "Município": "São Filipe",
+            "Ilha": "Fogo",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "MPD",
+            "Cabeça de Lista CM": "Júlio Lopes",
+            "Município": "Sal",
+            "Ilha": "Sal",
+            "Região": "Barlavento"
+        },
+        {
+            "Partido": "MPD",
+            "Cabeça de Lista CM": "Miguel Rosa",
+            "Município": "Maio",
+            "Ilha": "Maio",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "MPD",
+            "Cabeça de Lista CM": "Clemente Garcia",
+            "Município": "São Domingos",
+            "Ilha": "Santiago",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "MPD",
+            "Cabeça de Lista CM": "Herménio Fernandes",
+            "Município": "São Miguel",
+            "Ilha": "Santiago",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "MPD",
+            "Cabeça de Lista CM": "Francisco Tavares",
+            "Município": "Brava",
+            "Ilha": "Brava",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "MPD",
+            "Cabeça de Lista CM": "José L. Santos",
+            "Município": "Boa Vista",
+            "Ilha": "Boa Vista",
+            "Região": "Barlavento"
+        },
+        {
+            "Partido": "MPD",
+            "Cabeça de Lista CM": "Celso Soares",
+            "Município": "Tarrafal",
+            "Ilha": "Santiago",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "MPD",
+            "Cabeça de Lista CM": "Pedro Rocha",
+            "Município": "Santa Cruz",
+            "Ilha": "Santiago",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "MPD",
+            "Cabeça de Lista CM": "Lourenço Lopes",
+            "Município": "Mosteiros ",
+            "Ilha": "Fogo",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "MPD",
+            "Cabeça de Lista CM": "José Martins",
+            "Município": "Ribeira Brava",
+            "Ilha": "São Nicolau",
+            "Região": "Barlavento"
+        },
+        {
+            "Partido": "MPD",
+            "Cabeça de Lista CM": "José Alves",
+            "Município": "Santa Catarina",
+            "Ilha": "Santiago",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "MPD",
+            "Cabeça de Lista CM": "Carlos Vasconcelos",
+            "Município": "São Lourenço dos Órgãos",
+            "Ilha": "Santiago",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "MPD",
+            "Cabeça de Lista CM": "Ângelo Vaz",
+            "Município": "São Salvador do Mundo",
+            "Ilha": "Santiago",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "MPD",
+            "Cabeça de Lista CM": "Augusto Neves",
+            "Município": "São Vicente",
+            "Ilha": "São Vicente",
+            "Região": "Barlavento"
+        },
+        {
+            "Partido": "MPD",
+            "Cabeça de Lista CM": "Aníbal Fonseca",
+            "Município": "Porto Novo",
+            "Ilha": "Santo Antão",
+            "Região": "Barlavento"
+        },
+        {
+            "Partido": "MPD",
+            "Cabeça de Lista CM": "António Aleixo",
+            "Município": "Paúl",
+            "Ilha": "Santo Antão",
+            "Região": "Barlavento"
+        },
+        {
+            "Partido": "MPD",
+            "Cabeça de Lista CM": "José Brito",
+            "Município": "Tarrafal",
+            "Ilha": "São Nicolau",
+            "Região": "Barlavento"
+        },
+        {
+            "Partido": "MPD",
+            "Cabeça de Lista CM": "Óscar Santos",
+            "Município": "Praia",
+            "Ilha": "Santiago",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "MPD",
+            "Cabeça de Lista CM": "Alberto Nunes",
+            "Município": "Santa Catarina",
+            "Ilha": "Fogo",
+            "Região": "Barlavento"
+        },
+        {
+            "Partido": "MPD",
+            "Cabeça de Lista CM": "Orlando Delgado",
+            "Município": "Ribeira Grande",
+            "Ilha": "Santo Antão",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "MPD",
+            "Cabeça de Lista CM": "Domingos Mendes",
+            "Município": "Ribeira Grande",
+            "Ilha": "Santiago",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "PAICV",
+            "Cabeça de Lista CM": "Francisco Carvalho",
+            "Município": "Praia",
+            "Ilha": "Santiago",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "PAICV",
+            "Cabeça de Lista CM": "Nelson Moreira",
+            "Município": "Ribeira Grande",
+            "Ilha": "Santiago",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "PAICV",
+            "Cabeça de Lista CM": "Isaías Varela",
+            "Município": "São Domingos",
+            "Ilha": "Santiago",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "PAICV",
+            "Cabeça de Lista CM": "José dos Reis",
+            "Município": "Tarrafal",
+            "Ilha": "Santiago",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "PAICV",
+            "Cabeça de Lista CM": "Armindo Freitas",
+            "Município": "Santa Catarina",
+            "Ilha": "Santiago",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "PAICV",
+            "Cabeça de Lista CM": "João Alberto de Barros",
+            "Município": "São Salvador do Mundo",
+            "Ilha": "Santiago",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "PAICV",
+            "Cabeça de Lista CM": "António Fernandes",
+            "Município": "São Lourenço dos Órgãos",
+            "Ilha": "Santiago",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "PAICV",
+            "Cabeça de Lista CM": "Carlos Silva",
+            "Município": "Santa Cruz",
+            "Ilha": "Santiago",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "PAICV",
+            "Cabeça de Lista CM": "João Carvalho",
+            "Município": "São Miguel",
+            "Ilha": "Santiago",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "PAICV",
+            "Cabeça de Lista CM": "Albertino Graça",
+            "Município": "São Vicente",
+            "Ilha": "Santiago",
+            "Região": "Barlavento"
+        },
+        {
+            "Partido": "PAICV",
+            "Cabeça de Lista CM": "Eugénio Veiga",
+            "Município": "Santa Catarina",
+            "Ilha": "Santiago",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "PAICV",
+            "Cabeça de Lista CM": "Fábio Vieira",
+            "Município": "Mosteiros ",
+            "Ilha": "Fogo",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "PAICV",
+            "Cabeça de Lista CM": "Clóvis Silva",
+            "Município": "Brava",
+            "Ilha": "Brava",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "PAICV",
+            "Cabeça de Lista CM": "Cláudio Mendonça",
+            "Município": "Boa Vista",
+            "Ilha": "Boa Vista",
+            "Região": "Barlavento"
+        },
+        {
+            "Partido": "PAICV",
+            "Cabeça de Lista CM": "Carlos Pires Ferreira",
+            "Município": "Paul",
+            "Ilha": "Santo Antão",
+            "Região": "Barlavento"
+        },
+        {
+            "Partido": "PAICV",
+            "Cabeça de Lista CM": "Nilton Dias",
+            "Município": "Porto Novo",
+            "Ilha": "Santo Antão",
+            "Região": "Barlavento"
+        },
+        {
+            "Partido": "PAICV",
+            "Cabeça de Lista CM": "Albertino Mosso",
+            "Município": "Sal",
+            "Ilha": "Sal",
+            "Região": "Barlavento"
+        },
+        {
+            "Partido": "PAICV",
+            "Cabeça de Lista CM": "António Ramos",
+            "Município": "Maio",
+            "Ilha": "Maio",
+            "Região": "Sotavento"
+        },
+        {
+            "Partido": "PAICV",
+            "Cabeça de Lista CM": "Carlos Barbosa",
+            "Município": "Ribeira Brava",
+            "Ilha": "São Nicolau",
+            "Região": "Barlavento"
+        },
+        {
+            "Partido": "PAICV",
+            "Cabeça de Lista CM": "João Soares",
+            "Município": "Tarrafal",
+            "Ilha": "São Nicolau",
+            "Região": "Barlavento"
+        }
+    ]
+}
