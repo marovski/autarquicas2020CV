@@ -113,7 +113,7 @@ function resetDisplay(){
 
 //Contagem de candidaturas
 
-    document.getElementById("candidaturas").innerHTML = "Total Candidaturas: "+ document.querySelector("tbody").rows.length; 
+    document.getElementById("candidaturas").innerHTML = "Total Candidaturas: "+ tabela.length; 
  
 //ServiceWorker
 
