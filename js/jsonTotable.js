@@ -1,6 +1,7 @@
 function json2table(json, classes) {
-  let data=json;
-  console.log(data);
+
+  let data = json;
+  
   let table = document.getElementById(classes);
   let row, cell;
   
@@ -21,8 +22,12 @@ function json2table(json, classes) {
     cell.textContent = data[i].Região;
     cell = row.insertCell();
     cell.textContent = data[i].PE;
+   
     cell = row.insertCell();
-    cell.textContent = data[i].Website;
+    cell.innerHTML = data[i].Website;
+    cell.href = data[i].Website;;
+  
+    
     cell = row.insertCell();
     cell.textContent = data[i].Contacto;
     cell = row.insertCell();
