@@ -23,13 +23,32 @@ function json2table(json, classes) {
     cell = row.insertCell();
     cell.textContent = data[i].PE;
    
+    //Website information
     cell = row.insertCell();
-    cell.innerHTML = data[i].Website;
-    cell.href = data[i].Website;;
-  
+    if(data[i].Website){
+        a=document.createElement('a');
+        a.setAttribute('href',data[i].Website);
+        a.setAttribute('target','_blank');
+        a.textContent= data[i].Website;
+       
+        cell.appendChild(a)
+    }
+ 
+   
+
     
     cell = row.insertCell();
-    cell.textContent = data[i].Contacto;
+    
+//E-mail information
+    if( data[i].Contacto){
+        a=document.createElement('a');
+        a.setAttribute('href','mailto:'+ data[i].Contacto);
+       
+        a.textContent= data[i].Contacto;
+       
+        cell.appendChild(a)
+    }
+    
     cell = row.insertCell();
     cell.textContent = data[i].Lista;
     
