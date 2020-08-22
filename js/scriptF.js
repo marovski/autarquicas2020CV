@@ -111,10 +111,7 @@ function resetDisplay(){
     });
 }
 
-//Contagem de candidaturas
 
-    document.getElementById("candidaturas").innerHTML = "Total Candidaturas: "+ tabela.length; 
- 
 //ServiceWorker
 
 if ("serviceWorker" in navigator) {

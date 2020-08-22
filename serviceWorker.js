@@ -6,12 +6,12 @@ const assets = [
   "/js/scriptF.js",
   "/img/cvflag.png",
   "/img/logo.png",
-  "/img/Logoa.png",
+  "/img/gsp.png",
 ]
-const staticDevCoffee = "autarquicas2020"
+const static = "autarquicas2020"
 self.addEventListener("install", installEvent => {
   installEvent.waitUntil(
-    caches.open(staticDevCoffee).then(cache => {
+    caches.open(static).then(cache => {
       cache.addAll(assets)
     })
   )

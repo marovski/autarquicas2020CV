@@ -1,165 +1,176 @@
 /* Import robot font  */
 
 @import "https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic&subset=latin,cyrillic";
+
 html {
-    font-size: 22px;
+  font-size: 22px;
 }
 
 body {
-    /*  CSS Grid Layout*/
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto;
-    grid-template-areas: 'header'
-                        'content'
-                        'links'
-                        'footer';
-    row-gap: 7px;
+  /*  CSS Grid Layout*/
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas:
+    "header"
+    "content"
+    "links"
+    "footer";
+  row-gap: 7px;
 
+  height: 100vh;
+  padding: 1rem;
 
-    height: 100vh;
-    padding: 1rem;
-    
-    font-family: 'RobotoDraft', 'Roboto', 'Helvetica Neue, Helvetica, Arial', sans-serif !important;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 1.4rem;
-    line-height: 2rem;
-    letter-spacing: 0.01rem;
-    color: #212121;
-    background-color: #f5f5f5;
-    /* //Font Rendering */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
+  font-family: "RobotoDraft", "Roboto", "Helvetica Neue, Helvetica, Arial",
+    sans-serif !important;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  letter-spacing: 0.01rem;
+  color: #212121;
+  background-color: #f5f5f5;
+  /* //Font Rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
 }
 
 .header {
-    grid-area: header;
+  grid-area: header;
 }
 
 .content {
-    grid-area: content;
+  grid-area: content;
 }
+
 /* Logos CSS  */
-.cvflag{
-  
-    width: 304px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%!important;
-    border-color: darkblue;
-}
-.gspLogo{
-  width: 95px;
-  
+.cvflag {
+  width: 304px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
- 
+  border-radius: 50% !important;
+  border-color: darkblue;
 }
+
+.gspLogo {
+  width: 95px;
+
+  margin-left: 50px;
+  margin-right: auto;
+}
+
+/* Countdown positioning */
 #countdown {
-    left: 0;
-    bottom: 0;
-    right: 0;
-    text-align: center;
-    font-size: 34px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+  font-size: 34px;
 }
 
 .countdown__message {
-    /* font-weight: 100; */
-    font-size: 17px;
-    padding-top: 1em;
-    text-align: center;
+  /* font-weight: 100; */
+  font-size: 17px;
+  padding-top: 1em;
+  text-align: center;
 }
-#myTable{
-    border-radius: 4px;
-    margin: 5px 0;
-    padding: 10px 15px;
-    box-shadow: 0 0 5px 0 #B3B3B3;
-    overflow-x:auto;
-}
-#myTable td, #myTable th{
 
-    padding: .75rem;
-    vertical-align: top;
+/* ------------------------------------------ */
+#myTable {
+  border-radius: 4px;
+  margin: 5px 0;
+  padding: 10px 15px;
+  box-shadow: 0 0 5px 0 #b3b3b3;
+  overflow-x: auto;
 }
-#candidaturas{
-margin: 5px 0;
-    padding: 10px 15px;
-    box-shadow: 0 0 5px 0 #B3B3B3;
+
+#myTable td,
+#myTable th {
+  padding: 0.625em;
+  vertical-align: top;
+  /* text-align: center; */
+}
+
+#candidaturas {
+  margin: 5px 0;
+  padding: 10px 15px;
+  box-shadow: 0 0 5px 0 #b3b3b3;
 }
 
 /* media query responsive */
 @media screen and (max-width: 700px) {
-    #myTable {
-      border: 0;
-      border-radius: 4px;
-    }
-  
-    #myTable caption {
-      font-size: 1.3em;
-    }
-    
-    #myTable thead {
-      border: none;
-      clip: rect(0 0 0 0);
-      height: 1px;
-      margin: -1px;
-      overflow: hidden;
-      padding: 0;
-      position: absolute;
-      width: 1px;
-      cursor: pointer;
-    }
-    
-    #myTable tr {
-      border-bottom: 3px solid #ddd;
-      display: block;
-      margin-bottom: .625em;
-    }
-    
-    #myTable td {
-      border-bottom: 1px solid #ddd;
-      display: block;
-      font-size: .8em;
-      text-align: right;
-    }
-    
-    #myTable td::before {
-    
-      content: attr(data-label);
-      float: left;
-      font-weight: bold;
-      text-transform: uppercase;
-    }
-    
-    #myTable td:last-child {
-      border-bottom: 0;
-    }
+  #myTable {
+    border: 0;
+    border-radius: 4px;
+    box-shadow: none;
   }
 
-  /* links */
-.links{
+  #myTable caption {
+    font-size: 1.7em;
+  }
+
+  #myTable thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    cursor: pointer;
+  }
+
+  #myTable tr {
+    border-bottom: 3px solid #ddd;
+    display: block;
+    margin-bottom: 0.625em;
+
+    border: 1px solid #ddd;
+    padding: 0.35em;
+  }
+
+  #myTable td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 0.8em;
+    text-align: right;
+  }
+
+  #myTable td::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  #myTable td:last-child {
+    border-bottom: 0;
+  }
+}
+
+/* links */
+.links {
   grid-area: links;
   text-align: center;
 }
+
 /* Footer */
 
 footer {
-    grid-area: footer;
-    flex-shrink: 0;
-    text-align: center;
-    /* 
+  grid-area: footer;
+  flex-shrink: 0;
+  text-align: center;
+  /* 
     position: fixed;
     bottom: 0px;
     left: 0px;
     right: 0px;
     margin-bottom: 0px; */
-    width: 100%;
-    padding: 1em;
-    font-size: .8em;
-    /* background-color: #fff; */
+  width: 100%;
+  padding: 1em;
+  font-size: 0.8em;
+  /* background-color: #fff; */
 }
-
-
