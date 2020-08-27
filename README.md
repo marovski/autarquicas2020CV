@@ -10,11 +10,11 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
+[![Forks][forks-shield]][https://github.com/marovski/autarquicas2020CV/network/members]
+[![Stargazers][stars-shield]][https://github.com/marovski/autarquicas2020CV/stargazers]
+[![Issues][issues-shield]][https://github.com/marovski/autarquicas2020CV/issues]
 [![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/m%C3%A1rio-cardoso-84481772]
 
 
 
@@ -22,7 +22,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/marovski/autarquicas2020CV/">
-    <img src="http://autarquicas2020.cv/img/autarquicas2020.png" alt="Logo" width="80" height="80">
+    <img src="http://autarquicas2020.cv/img/autarquicas2020.png" alt="Logo" width="500" height="500">
   </a>
 
   <h3 align="center">Autárquicas CV 2020</h3>
