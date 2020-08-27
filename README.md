@@ -21,7 +21,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/marovski/autarquicas2020CV/">
-    <img src="http://autarquicas2020.cv/img/autarquicas2020.png" alt="Logo" width="100" height="80">
+    <img src="http://autarquicas2020.cv/img/autarquicas2020.png" alt="Logo" width="200" height="90">
   </a>
 
   <h3 align="center">Autárquicas CV 2020</h3>
@@ -131,4 +131,4 @@ Project LIVE Link: [http://autarquicas2020.cv/](http://autarquicas2020.cv/)
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
 [license-url]: https://github.com/marovski/autarquicas2020CV/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://www.linkedin.com/in/m%C3%A1rio-cardoso-84481772/
