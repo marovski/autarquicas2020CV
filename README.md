@@ -22,7 +22,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/marovski/autarquicas2020CV/">
-    <img src="http://autarquicas2020.cv/img/autarquicas2020.png" alt="Logo" width="500" height="500">
+    <img src="http://autarquicas2020.cv/img/autarquicas2020.png" alt="Logo" width="800" height="480">
   </a>
 
   <h3 align="center">Autárquicas CV 2020</h3>
