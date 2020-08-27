@@ -120,15 +120,15 @@ Project LIVE Link: [http://autarquicas2020.cv/](http://autarquicas2020.cv/)
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/marovski/autarquicas2020CV
 [contributors-url]: https://github.com/marovski/autarquicas2020CV/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/marovski/autarquicas2020CV
 [forks-url]: https://github.com/marovski/autarquicas2020CV/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/marovski/autarquicas2020CV
 [stars-url]: https://github.com/marovski/autarquicas2020CV/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=flat-square
+[issues-shield]: https://img.shields.io/github/issues/marovski/autarquicas2020CV
 [issues-url]: https://github.com/marovski/autarquicas2020CV/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
+[license-shield]:https://img.shields.io/github/license/marovski/autarquicas2020CV
 [license-url]: https://github.com/marovski/autarquicas2020CV/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/m%C3%A1rio-cardoso-84481772/
