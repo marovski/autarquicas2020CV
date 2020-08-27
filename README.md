@@ -22,7 +22,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/marovski/autarquicas2020CV/">
-    <img src="http://autarquicas2020.cv/img/autarquicas2020.png" alt="Logo" width="800" height="480">
+    <img src="http://autarquicas2020.cv/img/autarquicas2020.png" alt="Logo" width="500" height="310">
   </a>
 
   <h3 align="center">Autárquicas CV 2020</h3>
@@ -61,7 +61,7 @@ To inform and organize info for the VIII Eleições Autárquicas de Cabo Verde
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://github.com/marovski/autarquicas2020CV/blob/master/img/autarquicasScreenshot.JPG)
+[![Product Name Screen Shot][product-screenshot](https://github.com/marovski/autarquicas2020CV/blob/master/img/autarquicasScreenshot.JPG)]
 
 
 ### Built With
