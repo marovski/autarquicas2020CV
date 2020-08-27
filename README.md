@@ -61,7 +61,7 @@ To inform and organize info for the VIII Eleições Autárquicas de Cabo Verde
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot](https://github.com/marovski/autarquicas2020CV/blob/master/img/autarquicasScreenshot.JPG)]
+[![Website Screen Shot](https://github.com/marovski/autarquicas2020CV/blob/master/img/autarquicasScreenshot.JPG?raw=true)]
 
 
 ### Built With
