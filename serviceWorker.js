@@ -5,7 +5,7 @@ const assets = [
   "/css/styling.css",
   "/js/scriptF.js",
   "/img/cvflag.png",
-  "/img/logo.png",
+  "/img/autarquicas2020.png",
   "/img/gsp.png",
 ]
 const static = "autarquicas2020"
