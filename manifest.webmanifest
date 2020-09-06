@@ -6,7 +6,7 @@
     "background_color": "#fff",
     "description": "Repositório de candidaturas às Eleições Autárquicas",
     "icons": [{
-      "src": "./img/autarquicas2020.png",
+      "src": "./img/pwaAutarquicas.png",
       "sizes": "512x512",
       "type": "image/png"
     }]

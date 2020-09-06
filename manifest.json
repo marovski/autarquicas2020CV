@@ -3,7 +3,7 @@
     "name": "Autárquicas Cabo Verde| 2020",
     "icons": [
       {
-        "src": "./img/autarquicas2020.png",
+        "src": "./img/pwaAutarquicas.png",
         "type": "image/png",
         "sizes": "160x160"
       }
