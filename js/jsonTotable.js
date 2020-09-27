@@ -55,6 +55,18 @@ function json2table(t, o) {
               (a.textContent = "Link"),
               e.appendChild(a),
               e.setAttribute("data-label", o))
+              : "Lista" === o && n.cm
+              ? ((e = i.insertCell()),
+                (r = n),
+                (a = document.createElement("a")),
+                (i = document.createElement("span")),
+                a.setAttribute("onClick", `window.open("${r.cm}", "_blank", "${t}");`),
+                a.setAttribute("title", "Ver Listas"),
+                // (a.textContent = ""),
+                i.setAttribute("class","glyphicon glyphicon-list-alt"),
+                e.appendChild(a),
+                a.appendChild(i),
+                e.setAttribute("data-label", o))
             : n
             ? ((e = i.insertCell()),
               (e.textContent = n),
@@ -271,7 +283,7 @@ var tabela = [
   {
     Candidatura: "PAICV",
     CM: "Cláudio Mendonça",
-    AM: "",
+    AM: "Walter Évora",
     Município: "Boa Vista",
     Ilha: "Boa Vista",
     Região: "Barlavento",
@@ -633,15 +645,15 @@ var tabela = [
   },
   {
     Candidatura: "MPD",
-    CM: "Óscar Santos",
+    CM: {nome:"Óscar Santos",cv:"https://web.facebook.com/pg/oscarsantos2020/about"},
     AM: "Ana Barber",
     Município: "Praia",
     Ilha: "Santiago",
     Região: "Sotavento",
     PE: "",
-    Website: "",
+    Website: "https://praia.mpd.cv/",
     Contato: "",
-    Lista: "",
+    Lista: {cm:"https://praia.mpd.cv/lista-cmp/", am:"https://praia.mpd.cv/lista-amp/"},
   },
   {
     Candidatura: "MPD",
@@ -673,7 +685,7 @@ var tabela = [
     PE: "https://alternativaribeiragrande.cv/?page_id=462",
     Website: "https://alternativaribeiragrande.cv/",
     Contato: "samlemos2015@gmail.com",
-    Lista: "",
+    Lista: {cm:"https://drive.google.com/file/d/1DvWbr_5gsTlYiOhC2SvfZOjnH54Gzxhl/view?usp=sharing"},
   },
   {
     Candidatura: "MPD",
