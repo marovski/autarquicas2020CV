@@ -129,7 +129,7 @@ var tabela = [
     Lista: {cm:"https://drive.google.com/file/d/1Q4Parea9SkXesHiffdQpSfZHttPdYVco/view"},
   },
   {
-    Candidatura: "MPD",
+    Candidatura: "PP",
     CM: "Amândio Vicente",
     AM: "Juvenal Furtado",
     Município: "Praia",
