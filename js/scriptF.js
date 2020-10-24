@@ -58,7 +58,7 @@ document.querySelectorAll("th").forEach((e) =>
 );
 
 // -----------COuntdown TImer--------------////
-var countDownDate = new Date("Oct 25, 2020 19:30:00").getTime(),
+var countDownDate = new Date("Oct 25, 2020 08:00:00").getTime(),
   x = setInterval(function () {
     var e = new Date().getTime(),
       t = countDownDate - e,
