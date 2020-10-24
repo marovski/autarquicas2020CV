@@ -356,7 +356,7 @@ var tabela = [
     Candidatura: "MIT",
     CM: "Cláudio Sousa",
     AM: "Adelino da Silva",
-    Município: "Praia",
+    Município: "Tarrafal",
     Ilha: "Santiago",
     Região: "Sotavento",
     PE: "",
@@ -398,6 +398,18 @@ var tabela = [
     Plataforma: "https://facebook.com/DomingosCMRGS2020",
     Contato: "candidaturadomingos2020@gmail.com",
     Lista: {cm:"https://cne.cv/wp-content/uploads/2019/10/MPD_RIBEIRA-GRANDE-SANTIAGO.pdf"},
+  },
+  {
+    Candidatura: "UCID",
+    CM: {nome:"Domingos Rodrigues",cv:"https://inforpress.cv/autarquicas-2020-porto-novo-candidato-da-ucid-considera-que-processo-de-desenvolvimento-do-municipio-tem-sido-lento/"},
+    AM: "José Manuel Graça",
+    Município: "Porto Novo",
+    Ilha: "Santo Antão",
+    Região: "Barlavento",
+    PE: "",
+    Plataforma: "https://web.facebook.com/Candidatura-Domingos-Rodrigues-UCID-100842595081369/",
+    Contato: "",
+    Lista: {cm:"https://cne.cv/wp-content/uploads/2019/10/UCID_PORTO-NOVO.pdf"},
   },
   {
     Candidatura: "UT",
@@ -829,6 +841,18 @@ var tabela = [
     Plataforma: "",
     Contato: "",
     Lista: {cm:"https://cne.cv/wp-content/uploads/2019/10/UCID_SAOFILIPE_FOGO.pdf"},
+  },
+  {
+    Candidatura: "PP",
+    CM: "",
+    AM: {nome:"Sérgio Corrá",cv:"https://santiagomagazine.cv/index.php/politica/5063-sergio-corra-encabeca-lista-do-partido-popular-para-assembleia-municipal-da-boa-vista"},
+    Município: "Boa Vista",
+    Ilha: "Boa Vista",
+    Região: "Barlavento",
+    PE: "",
+    Plataforma: "",
+    Contato: "",
+    Lista: {cm:"https://cne.cv/wp-content/uploads/2019/10/PP_BOAVISTA.pdf"},
   }
 ];
 json2table(tabela, "ttbody");
