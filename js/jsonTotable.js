@@ -192,7 +192,7 @@ var tabela = [
   {
     Candidatura: "PAICV",
     CM: {nome:"António Ramos",cv:"http://paicv.cv/autarquicas-2020-maio-biografia-de-antonio-ramos-cabeca-de-lista-do-paicv/"},
-    AM: "Alcídia Tavares",
+    AM: "Michael Frederico",
     Município: "Maio",
     Ilha: "Maio",
     Região: "Sotavento",
@@ -292,7 +292,7 @@ var tabela = [
         "https://drive.google.com/file/d/0B-pIHm7n-O2ONHlfVlZlTFhmakk/view?usp=sharing",
     },
     AM: "Wanderleya Nascimento",
-    Município: "Paul",
+    Município: "Paúl",
     Ilha: "Santo Antão",
     Região: "Barlavento",
     PE: "https://facebook.com/carlospiresferreira2020/posts/198950721669568",
@@ -841,6 +841,21 @@ var tabela = [
     Plataforma: "",
     Contato: "",
     Lista: {cm:"https://cne.cv/wp-content/uploads/2019/10/UCID_SAOFILIPE_FOGO.pdf"},
+},{
+  Candidatura: "UCID",
+    CM: {
+      nome: "Sandro Lopes",
+      cv:
+        "https://inforpress.cv/autarquicas-2020-paul-biografia-de-sandro-gomes-cabeca-de-lista-da-ucid/",
+    },
+    AM: "Jailson Brito",
+    Município: "Paúl",
+    Ilha: "Santo Antão",
+    Região: "Barlavento",
+    PE: "",
+    Plataforma: "https://facebook.com/CandidaturaSandroGomes",
+    Contato: "",
+    Lista: {cm:"https://cne.cv/wp-content/uploads/2019/10/UCID_PA%C3%9AL.pdf"},
   },
   {
     Candidatura: "PP",

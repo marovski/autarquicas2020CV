@@ -70,7 +70,7 @@ var countDownDate = new Date("Oct 25, 2020 08:00:00").getTime(),
       n + "d " + o + "h " + r + "m " + a + "s "),
       t < 0 &&
         (clearInterval(x),
-        (document.getElementById("countdown").innerHTML = "EXPIRED"));
+        (document.getElementById("countdown").innerHTML = "EXPIRADO"));
   }, 1e3);
 //-----------------------------------------------///
 
