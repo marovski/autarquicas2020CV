@@ -114,7 +114,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Mário|Global Shapers Praia Hub - [@GlobalShapersPraia](https://web.facebook.com/GlobalShapersPraia/) - praiaglobalshapers@gmail.com | cardozo27cv@gmail.com
+Coded by Mário|Global Shapers Praia Hub - [@GlobalShapersPraia](https://web.facebook.com/GlobalShapersPraia/) - praiaglobalshapers@gmail.com | cardozo27cv@gmail.com
 
 Project LIVE Link: [http://autarquicas2020.cv/](http://autarquicas2020.cv/)
 
